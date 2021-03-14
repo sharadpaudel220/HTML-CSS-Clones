@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+ 
+
+ul > li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+}
+
+nav{
+    border: 1px solid black;
+    color: wheat;
+    background-color:rgb(43, 41, 41);
+    height: 50px;
+    width: 100%;
+   
+
+}
+nav > ul{
+    margin-top: 15px;
+    
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+ul > .signup > input{
+    padding: 5px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    outline: 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+nav > ul{
+    margin-left: 180px;
+    
+}
+
+nav > ul>li>a:hover, :active{
+    color:rgb(141, 138, 138);
+    
+}
+
+
+
+
+ul> li> input[type=text]{
+    background-color: rgb(34, 32, 32);
+    outline: 0px;
+    border: 1px solid rgb(34, 32, 32) ;
+    padding: 5px;
+    border-radius: 5px;
+    color: blanchedalmond;
+    
+}
+ul>li>input::placeholder{
+    color: rgb(83, 83, 83);
+}
+
+ul>li>input{
+    margin-top: -5px;
+}
+.sec1{
+    font-family: sans-serif;
+    margin: 3% 12% 5% 7% ;
+    
+
+}
+.sec1 > .search{
+    margin-top: 10px;
+
+}
+.sec1 > .search> input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    height: 20px;
+    border: 1px solid rgb(70, 69, 69);
+    border-radius: 5px;
+}
+.sec1 > .search> input[type="submit"]{
+    width: 10%;
+    color: black ;
+}
+
+.sec1 > p{
+font-size: 10px;
+color: rgb(68, 67, 67);
+letter-spacing: 1px;
+
+}
+
+.link1{
+    text-decoration: none;
+    font-size: 10px;
+    margin: -3% 30% 0 40%;
+    letter-spacing: 1px;
+}
+.footer{
+margin: 8% 5% 2% 7%;
+}
+
+.footer > div{
+float: left;
+margin-left: 20px;
+}
+.footer> div>li{
+    list-style: none;
+}
+.footer> div > li > a{
+    text-decoration:none;
+}
+
+.footer>.ftr{
+    margin-left: 2%;
+
+}
+
+.ftr>li>a{
+    font-size: 10px;
+    color: rgb(109, 108, 108);
+    
+}
+.ftr>li{
+    padding-bottom: 10px;
+}
+
+
+footer{
+    list-style: none;
+    margin-top:50px;
+   
+    
+   
+}
+footer>li{
+    float: left;
+    text-decoration: none;
+    font-size: 9px;
+    letter-spacing: 1px;
+    color:  rgb(107, 106, 106);
+   word-spacing: 2px;
+  
+    
+
+}
+
+footer>li>a{
+    text-decoration: none;
+    font-size: 9px;
+    letter-spacing: 1px;
+    color: rgb(107, 106, 106);
+    word-spacing: 2px;
+    
+}
